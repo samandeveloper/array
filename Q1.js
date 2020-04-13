@@ -7,6 +7,7 @@ const obj = arr.reduce((accum, val) => {
     accum[val] = accum[val] || [];
     accum[val].push(val);
     return accum;
+    return val;
 }, {});
 
 
